@@ -5,9 +5,9 @@
   <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./resources/css/reset.css">
   <link href="./resources/css/style.css" rel="stylesheet" text="text/css">
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 </head>
 <body>
   <!-- Header -->
@@ -18,15 +18,17 @@
         <ul>
           <li><a href="#">Product detail</a></li>
           <li><a href="#">About us</a></li>
-          <li><a href="https://www.instagram.com/">Follow us <img class="icon" src="./resources/images/instagram.png"></a></li>
+          <li><a href="https://www.instagram.com/">Follow us</a></li>
+          <li id="nav-icon"><a href="#" ><img class="icon" src="./resources/images/instagram.png"></a></li>
         </ul>
       </nav>
       <nav class="tablet">
         <ul>
           <li><a href="#">Product detail</a></li>
           <li><a href="#">About us</a></li>
-          <li><a href="https://www.instagram.com/">Follow us <img class="icon" src="./resources/images/instagram.png"></a></li>
-          <li><a href="#" class="button">Join us</a></li>
+          <li><a href="https://www.instagram.com/">Follow us</a></li>
+          <li><a href="https://www.instagram.com/"><img class="icon" src="./resources/images/instagram.png"></a></li>
+          <li><a href="#" class="tablet-button">Join us</a></li>
         </ul>
       </nav>
       <nav class="mobile">
@@ -34,7 +36,7 @@
           <li><a href="#"><img src="./resources/images/ic-logo.svg"></a></li>
           <li><a href="#"><img src="./resources/images/ic-product-detail.svg"></a></li>
           <li><a href="#"><img src="./resources/images/ic-about-us.svg"></a></li>
-          <li><a href="#" class="button">Join us</a></li>
+          <li><a href="#" class="tablet-button">Join us</a></li>
         </ul>
       </nav>
     </div>
@@ -45,6 +47,10 @@
 
     <!-- Sign Up Section -->
     <div id="sign-up-section" class="banner">
+      <div class="tablet tablet-signup center">
+        <h2 class="cursive">Instant</h2>
+        <h1 class="striking">FORMAT CAMERA</h1>
+      </div>
       <div id="sign-up-cta">
         <div class="content center">
           <div class="header">
@@ -63,27 +69,23 @@
 
     <!-- Features Section -->
     <div id="features-section">
-      <div class="feature">
-        <div class="center">
-          <div class="image-container">
-            <img src="./resources/images/feature-1.png" />
-          </div>
-          <div class="content">
-            <h2>Advanced, automatic, instant</h2>
-            <h3>Shutter speed, apperture and flash output adjust automatically</h3>
-          </div>
+      <div class="feature f1">
+        <div class="image-container">
+          <img src="./resources/images/feature-1.png" />
+        </div>
+        <div class="content tablet-content">
+          <h2>Advanced, automatic, instant</h2>
+          <h3>Shutter speed, apperture and flash output adjust automatically</h3>
         </div>
       </div>
       <div class="feature">
-        <div class="center">
           <div class="image-container">
             <img src="./resources/images/feature-2.png" />
           </div>
-          <div class="content">
+          <div class="content tablet-content">
             <h2>Beautifully crafted inside-out</h2>
             <h3>From the paint outside to the tiny screw inside, Fotomatic is crafted with love and 20-year of expertise</h3>
           </div>
-        </div>
       </div>
     </div>
 
